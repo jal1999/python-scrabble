@@ -11,7 +11,6 @@ class Scrabble:
         self._english_words = [word.upper() for word in list(english_words_lower_alpha_set) if len(word) > 1]
         self.play_game()
 
-
     def _gen_starting_hand(self) -> dict[str, int]:
         """
         Generates the starting hand of the player.
